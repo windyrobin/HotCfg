@@ -1,15 +1,15 @@
 it supports file/diretory
 
-you could you like that :
+you could use it like that :
 
 var cfg = new Cfg("file.json");
 var obj = cfg.get();
 
-if you specify a directory it has two files :
+if you specify a directory and it has two files :
 dir/a.json 
 dir/b.json
 
-you could write like that :
+you could write code like that :
 
 var cfg = new Cfg("dir");
 var obja = cfg.get("a.json");
