@@ -25,7 +25,7 @@ var objb = cfg.get("b.json");
 
 
 >when you use directory mode ,it will auto-load when 
->file add/detele/renamebut if you edit the exsting file ,
+>file add/detele/rename, but if you edit the exsting file,
 >you should 'touch' the directory to trigger the event 
 >to reload 
 
