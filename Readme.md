@@ -21,7 +21,7 @@ var obja = cfg.get("a.json");
 var objb = cfg.get("b.json");
 ```
 
-###Note:
+####Note:
 when you use directory mode ,it will auto-load when file add/detele/rename
 but if you edit the exsting file ,you should 'touch' the directory to trigger
 the event to reload 
