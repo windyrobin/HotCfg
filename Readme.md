@@ -1,7 +1,7 @@
 A auto-reload Json class
 
-Tt supports file/diretory
-you could use it like that :
+It supports file/diretory mode
+and you could use it like that :
 
 ```js
 var cfg = new Cfg("file.json");
@@ -10,8 +10,10 @@ var obj = cfg.get();
 
 if you specify a directory and it has two files :
 
-dir/a.json 
-dir/b.json
+```
+   dir/a.json
+   dir/b.json
+```
 
 you could write code like that :
 
