@@ -14,6 +14,7 @@ dir/a.json
 dir/b.json
 
 you could write code like that :
+
 ```js
 var cfg = new Cfg("dir");
 var obja = cfg.get("a.json");
